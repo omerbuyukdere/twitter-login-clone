@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  display: flex;
+  width: 100%;
+  padding-right: var(--bs-gutter-x, 0);
+  padding-left: var(--bs-gutter-x, 0);
+  margin-right: 0;
+  margin-left: 0;
+}
+.box1 {
+  width: 65%;
+}
+.box2 {
+  width: 35%;
+  padding: 10px;
+}
+.btn {
+  background-color: #fff;
+  color: black;
+  border-radius: 25px;
+  width: 340px;
+  border: 1px solid #dadce0;
+}
+.btn:hover {
+  background-color: lightgray;
+  color: black;
+}
+.telbtn {
+  background-color: rgb(29, 155, 240);
+  color: #fff;
+}
+.telbtn:hover {
+  background-color: lightblue;
+  color: #fff;
+}
+.abc {
+  text-decoration: none;
+}
+.abc:hover {
+  text-decoration: underline;
+}
+.twitter-h-a {
+  margin-top: 50px;
+}
+.twitter-h-a h1 {
+  font-size: 70px;
+}
+.twitter-h-b {
+  margin-top: 50px;
+}
+/* footer */
+.footer1 {
+  margin-top: 8px;
+  display: flex;
+  justify-content: center;
+}
+.footer1 ul {
+  list-style-type: none;
+  display: block;
+}
+.footer1 ul li {
+  display: inline;
+  position: relative;
+}
+
+.set {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer2 ul {
+  list-style-type: none;
+}
+.footer1 ul li a {
+  text-decoration: none;
+  font-size: 13px;
+  color: gray;
+}
+.footer1 ul li a:hover {
+  text-decoration: underline;
+  font-size: 13px;
+  color: gray;
+}
+.footer2 ul li a {
+  color: gray;
+  text-decoration: none;
+  font-size: 13px;
+}
+.footer2 ul li a:hover {
+  color: gray;
+  text-decoration: underline;
+  font-size: 13px;
+}
